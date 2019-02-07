@@ -81,5 +81,6 @@ class Crypt
         $decrypted = Cryptor::Decrypt($data, $key);
         return $decrypted;
 
+
     }
 }
